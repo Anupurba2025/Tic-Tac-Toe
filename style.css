@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    text-align: center;
+    background-image: url("tic-tac-toe-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: .5rem; 
+    border-radius: 1rem; 
+    font-size: 2.5rem;
+    color: black;
+}
+
+.container{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 70vmin;
+    width:65vmin;
+    /* background-color: pink; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: 0px;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, .2);
+    background-color: #FCA311; 
+    /* background-color: #FFB563; */
+    font-size: 8vmin;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bolder;
+    color: black;
+}
+#reset{
+    height: 8vmin;
+    width: 30vmin;
+    padding: 1rem 1rem 1rem 1rem;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 3vmin;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+#msg{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: .5rem; 
+    border-radius: 2rem;
+    width: 120vmin;
+    align-items: center;
+    margin-left: 40vmin;
+    
+}
+.newGame{
+    height: 8vmin;
+    width: 30vmin;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 3vmin;
+}
+.hide{
+    display: none;
+}
+.box:hover{
+    background-color: #FFD800;
+}
+
